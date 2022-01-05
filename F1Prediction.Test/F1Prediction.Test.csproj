@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\F1Prediction.Logic\F1Prediction.Logic.csproj" />
+    <ProjectReference Include="..\F1Prediction.Models\F1Prediction.Models.csproj" />
+    <ProjectReference Include="..\F1Prediction.Repository\F1Prediction.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
