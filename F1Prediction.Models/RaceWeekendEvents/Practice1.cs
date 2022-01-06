@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class Practice1
+    class Practice1 : Practice
     {
-        public DateTime Date { get; set; }
+       
     }
 }

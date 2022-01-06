@@ -11,5 +11,10 @@ namespace F1Prediction.Models
         public string Name { get; set; }
         public Racer[] Pilots { get; set; }
         public int ConstructorPoints { get; set; }
+
+        public Team()
+        {
+            this.Pilots = new Racer[2];
+        }
     }
 }

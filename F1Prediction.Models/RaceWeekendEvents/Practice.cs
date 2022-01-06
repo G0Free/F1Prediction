@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class Qualifying
+    class Practice
     {
         public DateTime Date { get; set; }
-        public Racer[] Result { get; set; }
-
-        public Qualifying()
-        {
-            this.Result = new Racer[20];
-        }
     }
 }

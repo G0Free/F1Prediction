@@ -8,5 +8,7 @@ namespace F1Prediction.Models
 {
     class Player
     {
+        public string Name { get; set; }
+        public Racer[] Prediction { get; set; }
     }
 }
