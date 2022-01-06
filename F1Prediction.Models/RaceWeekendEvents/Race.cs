@@ -9,6 +9,8 @@ namespace F1Prediction.Models
     class Race
     {
         public DateTime Date { get; set; }
+
+        public Racer FastestLapDriver { get; set; }
         public Racer[] Result { get; set; }
         public Race()
         {
