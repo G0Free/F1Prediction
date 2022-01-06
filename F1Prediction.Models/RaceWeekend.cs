@@ -10,11 +10,11 @@ namespace F1Prediction.Models
     {
         public string Name { get; set; }
         public DateTime Date { get; set; }
-        public DateTime Practice1 { get; set; }
-        public DateTime Practice2 { get; set; }
-        public DateTime Practice3 { get; set; }
-        public DateTime Qualifying { get; set; }
-        public DateTime Race { get; set; }
+        public Practice1 Practice1 { get; set; }
+        public Practice2 Practice2 { get; set; }
+        public Practice3 Practice3 { get; set; }
+        public Qualifying Qualifying { get; set; }
+        public Race Race { get; set; }
 
     }
 }

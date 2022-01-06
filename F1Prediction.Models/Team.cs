@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class Qualifying
+    class Team
     {
-        public DateTime Date { get; set; }
-        public Racer[] Result { get; set; }
-
+        public string Name { get; set; }
+        public Racer[] Pilots { get; set; }
+        public int ConstructorPoints { get; set; }
     }
 }
