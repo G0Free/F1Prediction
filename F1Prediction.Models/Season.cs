@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
+    //maybe this class is not necessary
     class Season
     {
         public List<RaceWeekend> RaceWeekends{ get; set; }
@@ -17,6 +18,6 @@ namespace F1Prediction.Models
             this.RaceWeekends = new List<RaceWeekend>();
             this.Racers = new List<Racer>();
             this.Teams = new List<Team>();
-        }
+        }        
     }
 }
