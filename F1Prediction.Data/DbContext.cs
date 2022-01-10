@@ -20,5 +20,21 @@ namespace F1Prediction.Data
         public virtual DbSet<Racer> Racers{ get; set; }
         public virtual DbSet<Player> Players { get; set; }
 
+        public PredictionContext()
+        {
+            this.Database.EnsureCreated();
+        }
+        public PredictionContext(DbContextOptions<PredictionContext> options) : base(options) { }        
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                    .UseLazyLoadingProxies()
+                    .UseSqlServer();
+            }
+        }
+
     }
 }
