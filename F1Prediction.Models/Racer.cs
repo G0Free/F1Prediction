@@ -12,5 +12,16 @@ namespace F1Prediction.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Points { get; set; }
+
+        public Racer()
+        {
+
+        }
+        public Racer(int racenumber, string firstname, string lastname)
+        {
+            this.RaceNumber = racenumber;
+            this.FirstName = firstname;
+            this.LastName = lastname;
+        }
     }
 }
