@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class RaceWeekend
+    public class RaceWeekend
     {
+        public string Country { get; set; }
         public string Name { get; set; }
         public DateTime Date { get; set; }
         public Practice1 Practice1 { get; set; }
@@ -17,8 +18,9 @@ namespace F1Prediction.Models
         public Race Race { get; set; }
         
 
-        public RaceWeekend(string name, DateTime date)
+        public RaceWeekend(string country, string name, DateTime date)
         {
+            this.Country = country;
             this.Name = name;
             this.Date = date;
             this.Practice1 = new Practice1();

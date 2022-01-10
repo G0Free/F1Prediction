@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace F1Prediction.Models
 {
     //maybe this class is not necessary
-    class Season
+    public class Season
     {
-        public List<RaceWeekend> RaceWeekends{ get; set; }
-        public List<Racer> Racers { get; set; }
-        public List<Team> Teams { get; set; }
+        public ICollection<RaceWeekend> RaceWeekends{ get; set; }
+        public ICollection<Racer> Racers { get; set; }
+        public ICollection<Team> Teams { get; set; }
 
         public Season()
         {

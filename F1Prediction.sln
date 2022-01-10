@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Client", "F1Prediction.Client\F1Prediction.Client.csproj", "{D5F66CFA-7600-4C9D-8590-9EA05ABD1E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Client", "F1Prediction.Client\F1Prediction.Client.csproj", "{D5F66CFA-7600-4C9D-8590-9EA05ABD1E9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Models", "F1Prediction.Models\F1Prediction.Models.csproj", "{F11C2266-2BFE-458F-B1A2-F823014F2626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Models", "F1Prediction.Models\F1Prediction.Models.csproj", "{F11C2266-2BFE-458F-B1A2-F823014F2626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Data", "F1Prediction.Data\F1Prediction.Data.csproj", "{7C0C3333-7728-4498-A3ED-36944FB73F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Data", "F1Prediction.Data\F1Prediction.Data.csproj", "{7C0C3333-7728-4498-A3ED-36944FB73F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Logic", "F1Prediction.Logic\F1Prediction.Logic.csproj", "{E051C5A2-7F1A-43E9-A59E-D932884EE620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Logic", "F1Prediction.Logic\F1Prediction.Logic.csproj", "{E051C5A2-7F1A-43E9-A59E-D932884EE620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Repository", "F1Prediction.Repository\F1Prediction.Repository.csproj", "{75183427-CC84-4B56-A36E-C2B85150E59A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Repository", "F1Prediction.Repository\F1Prediction.Repository.csproj", "{75183427-CC84-4B56-A36E-C2B85150E59A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Endpoint", "F1Prediction.Endpoint\F1Prediction.Endpoint.csproj", "{45ED9C3E-49DB-4873-A270-5131E01D81E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Endpoint", "F1Prediction.Endpoint\F1Prediction.Endpoint.csproj", "{45ED9C3E-49DB-4873-A270-5131E01D81E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Prediction.Test", "F1Prediction.Test\F1Prediction.Test.csproj", "{246C9641-69CC-434D-BDFD-E30A699F605C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Prediction.Test", "F1Prediction.Test\F1Prediction.Test.csproj", "{246C9641-69CC-434D-BDFD-E30A699F605C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{DEE9494A-3D5A-45FC-8477-16AD23DE1AAB}"
 EndProject
@@ -26,6 +26,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{B15EC8EE-1FDC-40A4-A051-48291AA5F1AB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		TODO.txt = TODO.txt
 	EndProjectSection
 EndProject
 Global

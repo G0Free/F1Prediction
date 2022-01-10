@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class Practice2 : Practice
+    public class Practice2 : Practice
     {        
     }
 }

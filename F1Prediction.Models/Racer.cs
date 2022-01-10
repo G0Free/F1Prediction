@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace F1Prediction.Models
 {
-    class Racer
+    public class Racer
     {
         public int RaceNumber { get; set; }
         public string FirstName { get; set; }
