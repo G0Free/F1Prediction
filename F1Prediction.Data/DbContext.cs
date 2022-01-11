@@ -44,6 +44,8 @@ namespace F1Prediction.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            #region COMMENTED_OUT
+            /*
             #region SEASONS
             Season season = new Season();
             #endregion
@@ -161,6 +163,11 @@ namespace F1Prediction.Data
             #region PLAYERS
 
             #endregion
+
+            */
+
+            #endregion
+
 
         }
 
