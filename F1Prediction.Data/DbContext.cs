@@ -21,7 +21,7 @@ namespace F1Prediction.Data
     {
         public virtual DbSet<Season> Seasons { get; set; } //maybe is not necessary
         public virtual DbSet<RaceWeekend> RaceWeekends { get; set; }
-        public virtual DbSet<Team> Teams { get; set; }
+        public virtual DbSet<Constructor> Teams { get; set; }
         public virtual DbSet<Racer> Racers { get; set; }
         public virtual DbSet<Player> Players { get; set; }
 
