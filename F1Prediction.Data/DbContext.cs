@@ -12,6 +12,8 @@ namespace F1Prediction.Data
     //.Proxies
     //.SqlServer
     //.Tools
+
+    //consider to use this: https://documenter.getpostman.com/view/11586746/SztEa7bL
     public class PredictionContext : DbContext
     {
         public virtual DbSet<Season> Seasons { get; set; } //maybe is not necessary
