@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace F1Prediction.Models
 {
     [DataContract]
-    public partial class ResultTime : IEquatable<ResultTime>
+    public class ResultTime : IEquatable<ResultTime>
     {
         /// <summary>
         /// Gets or Sets Millis
