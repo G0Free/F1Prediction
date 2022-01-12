@@ -10,11 +10,11 @@ namespace F1Prediction.Models
     {
         public DateTime Date { get; set; }
 
-        public Racer FastestLapDriver { get; set; }
-        public Racer[] Result { get; set; }
+        public Driver FastestLapDriver { get; set; }
+        public Driver[] Result { get; set; }
         public Race()
         {
-            this.Result = new Racer[20];
+            this.Result = new Driver[20];
         }
         
     }

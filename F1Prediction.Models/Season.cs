@@ -10,13 +10,13 @@ namespace F1Prediction.Models
     public class Season
     {
         public ICollection<RaceWeekend> RaceWeekends{ get; set; }
-        public ICollection<Racer> Racers { get; set; }
+        public ICollection<Driver> Racers { get; set; }
         public ICollection<Constructor> Teams { get; set; }
 
         public Season()
         {
             this.RaceWeekends = new List<RaceWeekend>();
-            this.Racers = new List<Racer>();
+            this.Racers = new List<Driver>();
             this.Teams = new List<Constructor>();
         }        
     }

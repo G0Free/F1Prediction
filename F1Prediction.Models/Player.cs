@@ -9,7 +9,7 @@ namespace F1Prediction.Models
     public class Player
     {
         public string Name { get; set; }
-        public Racer[] Prediction { get; set; }
+        public Driver[] Prediction { get; set; }
         public int Points { get; set; }
 
     }
