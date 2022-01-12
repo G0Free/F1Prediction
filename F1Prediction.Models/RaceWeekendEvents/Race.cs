@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace F1Prediction.Models
 {
     [DataContract]
-    public class Race
+    public class Race : IEquatable<Race>
     {
         /// <summary>
         /// Gets or Sets Season
