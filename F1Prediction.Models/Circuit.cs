@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace F1Prediction.Models
 {
     [DataContract]
-    public class Circuit
+    public class Circuit : IEquatable<Circuit>
     {
         /// <summary>
         /// Gets or Sets CircuitId
